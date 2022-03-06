@@ -4,3 +4,5 @@ You need to run your requests on port that you used in open-feign project, not t
 According to my project, I run my requests on port 8083. 
 You can check out application.properties for well understanding.
 
+Dto that I used in this project does not matter. This project's main purpose is routing. I used dto for safe data requests, I can also use object but it is not safe, when you use object, you can send whatever you want to your API, so I used basic dto.
+
